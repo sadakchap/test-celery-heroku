@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Testing celery and python-decouple </h1>
+    <p>Heehe</p>
+    <p>{{ mail_res }}</p>
+    <p>{{ add_res }}</p>
+    <p>{{ mul_res }}</p>
+    <p>{{ xsum_res }}</p>
+    <div>
+        <h4>Checking staticfiles</h4>
+        <img src="{% static 'img/watch2.jpg' %}" style="width: 300px; height: 400px">
+    </div>
+</body>
+</html>
